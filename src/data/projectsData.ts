@@ -12,7 +12,7 @@ export const projects = [
       id: 1,
       title: "01/",
       image: FreshlyRestaurant, 
-      description: "Cabinet Médical",
+      description: "New York restaurant",
       link: "https://newyork-freshly-restaurant.vercel.app/"
     },
     {
