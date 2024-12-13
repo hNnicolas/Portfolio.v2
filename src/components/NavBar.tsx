@@ -2,13 +2,14 @@ import "../scss/NavBar.scss"; // Importing navbar-specific styles
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import ThemeToggleButton from "./ThemeButton";
+import MyPicture from "../assets/images/my_image.jpg"
 
 const NavBar: React.FC = () => {
   return (
     <Navbar expand="lg" className="navbar">
       <Container fluid className="px-0">
         <div className="image-title">
-        <img src="./my_image.jpg" alt="profile image" className="profile-image" />
+        <img src={MyPicture} alt="profile image" className="profile-image" />
         <Navbar.Brand as={NavLink} to="/" className="title">
           <div className="main-title">Nicolas</div>
           <div className="main-title">HUANG</div>
