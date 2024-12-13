@@ -1,0 +1,267 @@
+.contact-page-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-top: 1rem;
+  }
+  
+  .contact-page-title {
+    font-family: Oranienbaum;
+    font-size: 3rem;
+    font-weight: 200;
+    margin-right: 1rem;
+    color: #D6594C;
+  
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: .5rem;  
+  }
+
+  .contact-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contact-title {
+    font-size: 1rem;
+    font-weight: bold;
+    vertical-align: bottom;
+    font-family: "Oranienbaum", serif;
+    color: #D24737;
+  }
+  
+  .contact-address {
+    font-size: .7rem;
+    text-decoration: none;
+    margin-bottom: none;
+    vertical-align: bottom;
+    display: inline-block; 
+    margin-left: 0.5rem; 
+  }
+  
+  .internship-details {
+    font-size: .7rem;
+    padding-left: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    margin-top: 1.5rem;
+  }
+  
+  .internship-details h3 {
+    font-family: "Oranienbaum", serif;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    margin-top: 2rem;
+    font-weight: 200;
+    color: #D24737;
+  }
+  
+  .internship-details p {
+    margin-top: 0.5rem;
+    width: 50rem;
+    line-height: 1.5rem;
+    width: 70vw;
+  }
+  
+  .internship-details strong {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 550;
+  }
+
+  .bolder {
+    font-weight: 400;
+}
+
+  .typing-container{
+    display: inline-block;
+  }
+  
+  .contact-page-subtitle {
+    font-size: .3rem;
+    letter-spacing: 0.2em;
+    font-family: Roboto, sans-serif;
+    border-right: .07em solid black;
+    font-weight: 300;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 3s steps(12),
+        cursor .7s step-end infinite alternate;
+  }
+  
+  @keyframes cursor {
+    50% { border-color: transparent; }
+  }
+
+    @keyframes typing {
+        from { width: 0; }
+    }
+
+      /* Theme Styles */
+
+  .light-theme .contact-address {
+    color: #342f2d;
+  }
+
+  .dark-theme .contact-address  {
+    color: #EEE9E3; 
+  }
+  
+
+  @media (max-width: 1920px) {
+
+
+    .contact-page-title {
+      font-size: 10rem;
+      padding-top: 3rem;
+      padding-left: 4rem;
+      }
+
+      .contact-content {
+        margin-left: 4rem;
+        }
+    
+      .contact-page-subtitle {
+        font-size: 1.4rem;
+        margin-bottom: 2.7rem;
+        }
+  
+        .contact-title {
+          font-size: 1.5rem;
+          }
+  
+          .contact-address {
+            font-size: 1.1rem;
+            }
+  
+        .internship-details h3 {
+          font-size: 2rem;
+          }
+  
+      .internship-details p {
+       font-size: 1.2rem;
+       width: 40vw;
+      }
+
+  }
+  
+  @media (max-width: 1575px) {
+
+    .contact-page-title {
+      font-size: 9rem;
+      margin-left: 3rem;
+      }
+
+    .contact-content {
+      padding-left: 3rem;
+      }
+  
+    .contact-page-subtitle {
+      font-size: 1.4rem;
+      margin-bottom: 2.5rem;
+      }
+
+      .contact-title {
+        font-size: 1.5rem;
+        }
+
+        .contact-address {
+          font-size: 1.1rem;
+          }
+
+      .internship-details h3 {
+        font-size: 2rem;
+        }
+
+    .internship-details p {
+     font-size: 1.2rem;
+     width: 50vw;
+    }
+  }
+  
+  @media (max-width: 992px) {
+
+
+    .contact-page-text {
+      padding-left: 1.2rem;
+    }
+  
+    .contact-page-title {
+      font-size: 6rem;
+      padding-top: .7rem;
+      margin-bottom: none;
+      margin-left: 1.2rem;
+      }
+
+      .contact-page-subtitle {
+        font-size: 1rem;
+        margin-bottom: 1.8rem;
+        }
+
+        .contact-title {
+          font-size: 1.2rem;
+          }
+
+          .contact-address {
+            font-size: 1rem;
+            }
+
+        .internship-details h3 {
+          font-size: 1.5rem;
+          }
+
+      .internship-details p {
+       font-size: 1rem;
+      }
+  
+  }
+  
+ @media (max-width: 768px) {
+  
+    .contact-page-title {
+      font-size: 4rem;
+      padding-top: .5rem;
+      margin-left: 1.5rem;
+      }
+      
+      .contact-page-text {
+        padding-left: 1rem;
+      }
+
+      .internship-details p {
+        width: 70vw;
+       }
+
+  }  
+  
+  @media (max-width: 700px) {
+
+    .contact-page-title {
+      margin-left: 0rem;
+      }
+      
+      .contact-page-text {
+        padding-left: 0rem;
+        margin-left: 0rem;
+      }
+      .contact-content {
+        padding-left: 0rem;
+      }
+  
+    .contact-page-title {
+      font-size: 3.5rem;
+      }
+
+  }  
+  
+  
+  
